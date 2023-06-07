@@ -1,0 +1,64 @@
+.navbar {
+  position: relative;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.burger-icon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 999;
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin-bottom: 5px;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #fff;
+  padding: 10px;
+ 
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.menu ul li {
+ 
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.menu ul li i {
+  margin-right: 10px;
+}
+
+
+.menu ul li:hover::before,
+.menu ul li:focus::before {
+  background-color: rgba(0, 0, 0, 0.1);
+}
